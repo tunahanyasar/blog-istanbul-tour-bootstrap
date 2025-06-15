@@ -14,7 +14,23 @@
 
 ## 🌐 Live Demo
 
-Visit the live website: [Istanbul Tour Blog](https://blog-istanbul-tour-bootstrap.vercel.app/)
+Visit the live website: [Istanbul Tour Blog Bootstrap](https://blog-istanbul-tour-bootstrap.vercel.app/)
+
+---
+
+## :computer: Installation and Usage
+
+1. Clone the project:
+```bash
+git clone https://github.com/tunahanyasar/blog-istanbul-tour-bootstrap.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd blog-istanbul-tour-bootstrap
+```
+
+3. Open `index.html` in a web browser.
 
 ---
 
@@ -53,22 +69,6 @@ Visit the live website: [Istanbul Tour Blog](https://blog-istanbul-tour-bootstra
 2. **Sticky Sidebar**
    - Navigation that stays fixed while scrolling
    - Easily accessible tour titles
-
----
-
-## :computer: Installation and Usage
-
-1. Clone the project:
-```bash
-git clone https://github.com/tunahanyasar/blog-istanbul-tour-bootstrap.git
-```
-
-2. Navigate to the project directory:
-```bash
-cd blog-istanbul-tour-bootstrap
-```
-
-3. Open `index.html` in a web browser.
 
 ---
 

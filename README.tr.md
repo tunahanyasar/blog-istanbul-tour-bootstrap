@@ -14,7 +14,23 @@
 
 ## 🌐 Canlı Demo
 
-Canlı web sitesini ziyaret edin: [Istanbul Tour Blog](https://blog-istanbul-tour-bootstrap.vercel.app/)
+Canlı web sitesini ziyaret edin: [Istanbul Tour Blog Bootstrap](https://blog-istanbul-tour-bootstrap.vercel.app/)
+
+---
+
+## :computer: Kurulum ve Kullanım
+
+1. Projeyi klonlayın:
+```bash
+git clone https://github.com/tunahanyasar/blog-istanbul-tour-bootstrap.git
+```
+
+2. Proje dizinine gidin:
+```bash
+cd blog-istanbul-tour-bootstrap
+```
+
+3. `index.html` dosyasını bir web tarayıcısında açın.
 
 ---
 
@@ -53,22 +69,6 @@ Canlı web sitesini ziyaret edin: [Istanbul Tour Blog](https://blog-istanbul-tou
 2. **Sticky Sidebar**
    - Sayfa kaydırıldığında sabit kalan navigasyon
    - Kolay erişilebilir tur başlıkları
-
----
-
-## :computer: Kurulum ve Kullanım
-
-1. Projeyi klonlayın:
-```bash
-git clone https://github.com/tunahanyasar/blog-istanbul-tour-bootstrap.git
-```
-
-2. Proje dizinine gidin:
-```bash
-cd blog-istanbul-tour-bootstrap
-```
-
-3. `index.html` dosyasını bir web tarayıcısında açın.
 
 ---
 
