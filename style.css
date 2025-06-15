@@ -1,0 +1,182 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-top: 56px;
+  background-color: #f8fafc;
+}
+html {
+  scroll-padding-top: 100px; /* Header yüksekliği kadar boşluk bırak */
+
+  scroll-behavior: smooth;
+}
+
+/* =================================================== */
+
+/* HEADER START */
+.nav-bg {
+  color: white;
+  background: #1c93df;
+  margin-bottom: 2rem;
+}
+
+nav ul li a {
+  color: white; /* Yazı rengi */
+  font-size: 1.4rem;
+  transition: 0.5s;
+}
+nav ul li a:hover {
+  color: #007bff; /* Üzerine gelince renk değişimi */
+  transform: scale(1.1);
+}
+nav ul li a:visited {
+  color: lightcoral; /* Ziyaret edilince renk değişimi */
+}
+/* HEADER END */
+
+/* =================================================== */
+
+/* CARD START */
+.cards img {
+  width: auto;
+  height: 200px;
+  object-fit: cover; /* Görselleri kutuya sığdır ve taşan kısımları kırp */
+  border-radius: 20px; /* Köşeleri yuvarla (isteğe bağlı) */
+}
+.card p {
+  /* Taşmayı önlemek için */
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  /* 3 satırda kesme işlemi */
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+}
+.card {
+  background-color: rgb(255, 254, 254);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(218, 218, 218, 0.5);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+article a {
+  background-color: #1c93df;
+}
+.card a.btn,
+.jumbotron a.btn {
+  background-color: #1c93df;
+  color: rgb(255, 254, 254);
+  border: none;
+}
+.card a.btn:hover,
+.jumbotron a.btn:hover {
+  background-color: #26b183;
+  color: rgb(255, 254, 254);
+}
+/* CARD END */
+
+/* =================================================== */
+
+/* ASIDE START */
+.list-group a {
+  text-decoration: none;
+}
+.list-group a button:not(.list-h):hover {
+  text-decoration: none;
+  background-color: #58bfff;
+  color: azure;
+}
+.list-group .list-h {
+  background-color: #1c93df;
+}
+/* ASIDE END */
+
+/* =================================================== */
+
+/* JUMBOTRON START*/
+.jumbotron {
+  background: url("./img/istanbul1.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+
+}
+/* JUMBOTRON END*/
+
+/* POST STARTING */
+.card.post img {
+  height: 200px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.card.post {
+  width: 100%;
+}
+
+article:nth-child(1) .card-header {
+  background-color: rgb(235, 249, 250);
+  color: grey;
+  border-bottom-left-radius: 10px;
+}
+
+/* 2. article içindeki card-header */
+article:nth-child(2) .card-header {
+  background-color: #f3e4ff; /* Örnek renk */
+  color: grey;
+  border-bottom-left-radius: 10px;
+}
+
+/* 3. article içindeki card-header */
+article:nth-child(3) .card-header {
+  background-color: #fbffe4; /* Örnek renk */
+  color: grey;
+  border-bottom-left-radius: 10px;
+}
+
+/* 4. article içindeki card-header */
+article:nth-child(4) .card-header {
+  background-color: #ffe8f0; /* Örnek renk */
+  color: grey;
+  border-bottom-left-radius: 10px;
+}
+
+/* 5. article içindeki card-header */
+article:nth-child(5) .card-header {
+  background-color: #fff1c6da; /* Örnek renk */
+  color: grey;
+  border-bottom-left-radius: 10px;
+}
+
+/* 6. article içindeki card-header */
+article:nth-child(6) .card-header {
+  background-color: #bcffce; /* Örnek renk */
+  color: grey;
+  border-bottom-left-radius: 10px;
+}
+/* POST END */
+
+footer {
+  background-color: #1c93df;
+  color: azure;
+}
+
+/* Sticky aside için navbar yüksekliğine göre ayarlama */
+.sticky-top {
+  top: 90px !important; /* Navbar yüksekliği kadar boşluk bırak */
+}
+
+aside {
+  margin-top: 2rem;
+}
+
+/* Ana içerik için margin ekleyelim */
+.cards {
+  margin-top: 2rem;
+}
+
+/* Carousel için margin düzenlemesi */
+.carousel {
+  margin-top: 2rem;
+}
