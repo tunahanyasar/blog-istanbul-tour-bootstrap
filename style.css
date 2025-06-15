@@ -6,10 +6,11 @@
 body {
   padding-top: 56px;
   background-color: #f8fafc;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 html {
   scroll-padding-top: 100px; /* Header yüksekliği kadar boşluk bırak */
-
   scroll-behavior: smooth;
 }
 
@@ -60,6 +61,7 @@ nav ul li a:visited {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(218, 218, 218, 0.5);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
 }
 article a {
   background-color: #1c93df;
@@ -101,6 +103,21 @@ article a {
   background-size: cover;
   color: white;
 
+}
+.jumbotron.jumbotron-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 350px;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100vw;
+  border-radius: 0;
+  margin-top: 30px;
 }
 /* JUMBOTRON END*/
 
@@ -174,9 +191,26 @@ aside {
 /* Ana içerik için margin ekleyelim */
 .cards {
   margin-top: 2rem;
+  margin-right: 0 !important;
 }
 
 /* Carousel için margin düzenlemesi */
 .carousel {
   margin-top: 2rem;
+}
+
+/* Bootstrap grid taşmalarını önlemek için aside offset ayarı önerisi:
+   index.html ve post.html'de aside class'ını col-3 offset-1 olarak güncelleyin. */
+
+.container-fluid, .row {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
