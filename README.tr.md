@@ -60,12 +60,12 @@ Canlı web sitesini ziyaret edin: [Istanbul Tour Blog](https://blog-istanbul-tou
 
 1. Projeyi klonlayın:
 ```bash
-git clone https://github.com/tunahanyasar/Hafta-3.git
+git clone https://github.com/tunahanyasar/blog-istanbul-tour-bootstrap.git
 ```
 
 2. Proje dizinine gidin:
 ```bash
-cd Hafta-3/blog-istanbul-tour-bootstrap
+cd blog-istanbul-tour-bootstrap
 ```
 
 3. `index.html` dosyasını bir web tarayıcısında açın.

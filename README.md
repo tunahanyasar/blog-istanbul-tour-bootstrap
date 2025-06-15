@@ -60,12 +60,12 @@ Visit the live website: [Istanbul Tour Blog](https://blog-istanbul-tour-bootstra
 
 1. Clone the project:
 ```bash
-git clone https://github.com/tunahanyasar/Hafta-3.git
+git clone https://github.com/tunahanyasar/blog-istanbul-tour-bootstrap.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd Hafta-3/blog-istanbul-tour-bootstrap
+cd blog-istanbul-tour-bootstrap
 ```
 
 3. Open `index.html` in a web browser.
